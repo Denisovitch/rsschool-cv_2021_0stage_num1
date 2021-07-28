@@ -57,6 +57,13 @@ h2 {
   margin-bottom: 1em;
 }
 
+.code_ex {
+  color: var(--sec-color);
+  font-size: 1em;
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
 .tech_skills {
   color: var(--sec-color);
   font-size: 1em;
