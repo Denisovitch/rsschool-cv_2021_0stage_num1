@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/darcula.min.css" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.png">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>My_CV_HTML</title>
+    <meta property="og:image" content="assets/images/my_ava.png" />
+
+</head>
+<body>
+    <div class="wrapper">
+
+
+
+
+		<header>
+<div class="header">
+
+
+
+				<!--кнопки навигации сверху начало-->
+
+<!--Start Burger Menu-->
+
+<div class="burger-menu">
+  <input id="menu-toggle" type="checkbox" />
+  <label class="menu-btn" for="menu-toggle">
+    <span></span>
+  </label>
+
+  <p class="menubox">
+    <a class="menu-item" href="#lang">Lang Skills</a>
+    <a class="menu-item" href="#tech_skills">Tech Skills</a>
+    <a class="menu-item" href="#education">Education</a>
+    <a class="menu-item" href="#video">Video</a>
+  </p>
+
+</div>
+
+<!--End Burger Menu-->
+
+
+        <div class="header_nav">
+          <ul class="header_list">
+            <li class="header_item">
+              <a href="#lang" class="header_link">Lang Skills</a>
+            </li>
+            <li class="header_item">
+              <a href="#tech_skills" class="header_link">Tech Skills</a>
+            </li>
+            <li class="header_item">
+              <a href="#education" class="header_link">Education</a>
+            </li>
+            <li class="header_item">
+              <a href="#video" class="header_link">Video</a>
+            </li>
+          </ul>
+        </div>
+        <!--кнопки навигации сверху конец-->
+
+			</div>
+		</header>
+		<main class="main">
+			<div class="column">
+
+
+
+
+        <h1 class="header__title">Denis Glazin</h1>
+				<h3 class="header__subtitle">Junior Front-end developer (trainee)</h3>
+				<figure class="header__avatar">
+					<img src="assets/images/my_ava.png" class="header__picture" alt="Header avatar">
+				</figure>
+
+				<section class="document-section contact">
+					<h2 class="document-title">Contacts</h2>
+					<ul class="contact__wrapper">
+						<li class="contact__block">
+							<div class="contact__image contact__image_github"></div>
+							<div class="contact__text">
+								<a href="//github.com/denisovitch" target="_blank" class="contact__link">github.com/denisovitch</a>
+							</div>
+						</li>
+						<li class="contact__block">
+							<div class="contact__image contact__image_discord"></div>
+							<div class="contact__text">
+								<a href="Discord:denisovich#2625" target="_blank" class="contact__link">Discord:denisovich#2625</a>
+							</div>
+						</li>
+						<li class="contact__block">
+							<div class="contact__image contact__image_linked"></div>
+							<div class="contact__text">
+								<a href="//linkedin.com/in/denis-glazin-52a364216/"
+                 target="_blank" class="contact__link">LinkedIn:Denis Glazin</a>
+							</div>
+						</li>
+						<li class="contact__block">
+							<div class="contact__image contact__image_email"></div>
+							<div class="contact__text">
+								<a href="mailto:denisglazin@gmail.com" class="contact__link">denisglazin@gmail.com</a>
+							</div>
+						</li>
+						<li class="contact__block">
+							<div class="contact__image contact__gps"></div>
+							<div class="contact__text">
+                <a href="//yandex.by/maps/155/gomel/?ll=31.014272%2C52.424160&z=10" target="_blank" class="contact__link">Gomel city Belarus</a>
+
+							</div>
+						</li>
+					</ul>
+				</section>
+
+			</div>
+			<div class="column column_main">
+
+        <!--Start About Me id=career-->
+        <section class="document-section about" id='career'>
+					<h2 class="document-title">About ME</h2>
+					<p class="about__text">
+						My name is Denis and I am a beginner front-end developer. I'm
+                looking for a reliable company for applying my technical
+                capabilities and my creativity. I am always strive to improve
+                and develop my skills in web design and growth in web
+                development. I strive to contribute to the success of the
+                company by working with consistency and seriousness in the tasks
+                assigned to me.
+					</p>
+				</section>
+        <!--End About Me id=career-->
+
+        <!--Start My career Objective-->
+				<section class="document-section about">
+					<h2 class="document-title">My career Objective</h2>
+					<p class="about__text">
+						The opportunity to apply previously accumulated technical skills
+            and growth in the IT field
+					</p>
+				</section>
+        <!--End My career Objective-->
+
+        <!--Start Lang skill  id='lang'-->
+				<section class="document-section about" id='lang'>
+					<h2 class="document-title">Language Skills</h2>
+					<p class="about__text">
+						Native language Russian
+          </p>
+					<p class="about__text">
+						Level of written and spoken English: A2
+					</p>
+				</section>
+        <!--End Lang skill   id='lang'-->
+
+        <!--Start My Code -->
+				<section class="document-section about">
+					<h2 class="document-title">My code sandbox</h2>
+          <pre><code class="js">
+// function rgb(r, g, b){
+let rgb = function (r, g, b){
+ return (toHex(r)+toHex(g)+toHex(b))
+};
+
+function toHex(numb) {
+  if (numb > 255)  return 'FF';
+  res=numb.toString(16).padStart(2,'0').toUpperCase();
+  return=res;
+}
+           </code></pre>
+           <aside>
+           <a class="sand_git" href="//github.com/Denisovitch" target="_blank"
+                    ><img
+                      src="assets/images/go_to_git.svg"
+                      width="80"
+                      height="20"
+                      alt="git_logo"
+                  /></a>
+                </aside>
+				</section>
+        <!--End My career Objective-->
+
+
+          <!--Start My project example-->
+				<section class="document-section about">
+					<h2 class="document-title">My project example</h2>
+          <a href="https://denisovitch.github.io/drum_kit/" target="_blank" class="drum">
+                    <img
+                      src="assets/images/drum_kit_res.png"
+                      alt="ссылка"
+                      style="width:100%;height:auto"
+                    />
+           </a>
+					<p class="about__text">
+						Drum Kit task rsschool JS/FE stage0
+					</p>
+					<p class="about__text">
+						A prototype of a key-pressing drum kit. We use HTML, CSS,JS
+					</p>
+				</section>
+        <!--End My project example-->
+
+ <!--Start Technical Skills id="tech_skills"-->
+ <section class="document-section about" id="tech_skills">
+  <h2 class="document-title">Technical Skills</h2>
+  <ul>
+    <li>design of data transmission networks</li>
+    <li>
+      installation and construction of data transmission networks
+    </li>
+    <li>administration of data transmission networks</li>
+    <li>support the company's IT infrastructure</li>
+    <li>writing and maintaining technical documentation</li>
+    <li>
+      process automation, monitoring the availability and quality
+      of services
+    </li>
+    <li>deploying new services</li>
+    <li>
+      troubleshooting, handling requests and providing technical
+      support to users and customers of the corporate network
+    </li>
+    <li>
+      cooperation with providers of services, software and
+      equipment. Understanding Linux and Windows based OS
+    </li>
+    <li>
+      Knowledge of IPv4 as well as widespread application layer
+      protocols
+    </li>
+    <!-- <li></li> -->
+  </ul>
+</section>
+<!--End Technical Skills-->
+
+ <!--Start Work Experience-->
+ <!-- <section class="document-section about"> -->
+  <section class="document-section about">
+  <h2 class="document-title">Work Experience</h2>
+  <ul>
+    <li>
+      "A1" - provider of telecom, ICT and content services - lead
+      Engineer, Network Maintenance Group / -present days
+
+    </li>
+  </ul>
+  <p>
+    A full range of services for data transmission networks in
+    the region, district, city
+  </p>
+  <a>
+    IT enthusiast with solid technical background.
+    Telecommunications ... The work is connected with
+    communication equipment of data transmission networks, storage
+    and data transmission servers, network topology, routing.
+    There is an opinion that the field of activity needs to be
+    changed every 10 years, due to the fact that professional
+    growth stops. We need to grow further)
+  </a>
+</section>
+<!--End Technical Skills-->
+
+   <!--Start Education-->
+   <section class="document-section about" id='education'>
+    <h2 class="document-title">Education</h2>
+    <a>
+      <ul>
+        <li>
+          Gomel state university, Physical department, Diploma with
+          Honour.
+        </li>
+        <li>RSSchool JS/FE Pre-School</li>
+      </ul>
+    </a>
+  </section>
+  <!--End Education-->
+
+
+
+ <!--Start Personal Qualities-->
+ <article class="document-section about">
+  <h2 class="document-title">Personal Qualities</h2>
+  <a>
+    I have been in the IT field for a long time, but at the same
+    time I am constantly engaged in self-education, I improve my
+    English level, in the future I plan to take a closer look at
+    back-end development, I can work as an independent unit in a
+    team, and as a team member, I know a lot that I don’t know , I
+    will find what I don’t find, I will competently ask my
+    colleagues. I can work in a team and really want to develop
+    professionally.
+  </a>
+</article>
+<!--End Personal Qualities-->
+
+ <!--Start Personal Interests-->
+ <section class="document-section about">
+  <h2 class="document-title">Personal Interests</h2>
+  <ul>
+    <li>Computer science and programming</li>
+    <li>Foreign languages (English)</li>
+    <li>Radio electronics hobby</li>
+    <li>Motorcycles, fast motorcycles, cool motorcycles J</li>
+  </ul>
+</section>
+<!--End Personal Interests-->
+
+ <!--Start video_present" id="video_present"-->
+ <section class="document-section about" id='video'>
+  <h2 class="document-title">Self-Introduction</h2>
+  <iframe
+                style="width:100%; height:320px"
+                src="https://www.youtube.com/embed/Zze91ih-2t4"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+</section>
+<!--End video_present" id="video_present"-->
+			</div>
+   	</main>
+		<footer class="footer">
+			<div class="footer__inner">
+        <a class="footer_git" href="//github.com/denisovitch" target="blank">
+        <img src="assets/images/Octocat.png" width="52" height="43" alt="github"/>
+      </a>
+
+      <h3 class="footer_2021">2021</h3>
+
+			  <a class="footer_rss" href="https://rs.school/js/" target="blank">
+        <img src="assets/images/rs_school_js.svg" width="86" height="32" alt="RS School"/>
+        </a>
+
+			</div>
+		</footer>
+	</div>
+</body>
+</html>
